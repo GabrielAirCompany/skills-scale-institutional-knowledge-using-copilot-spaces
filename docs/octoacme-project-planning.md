@@ -34,6 +34,7 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Capture in Risk Register:
   - ID, Description, Impact, Probability, Owner, Mitigation
 - Mark cross-team dependencies in the project board and escalate during weekly syncs
+- Use the [Ownership Matrix](octoacme-ownership-matrix-template.md) to clarify which role is accountable for mitigating each risk
 
 ## Planning Checklist
 - [ ] Project kickoff held
@@ -41,3 +42,5 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] [Ownership Matrix](octoacme-ownership-matrix-template.md) completed and shared with the team
+- [ ] Cross-functional roles (UX, Data, Security, SRE, Support) identified and onboarded where applicable

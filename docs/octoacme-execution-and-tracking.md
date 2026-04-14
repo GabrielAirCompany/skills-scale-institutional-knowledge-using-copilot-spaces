@@ -28,6 +28,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Monitor success metrics identified in the Project One-pager
 - Use dashboards for key signals (errors, latency, usage)
 
+## Cross-functional Handoffs
+Clear handoffs between roles reduce dropped context and last-minute surprises. At key execution milestones:
+- **UX Designer → Developer**: Handoff annotated specs and design assets at the start of each feature; Designer is available for clarification questions during implementation and signs off on the implemented UI before marking the story Done.
+- **Data Analyst → Product Manager**: Share metric dashboards and anomaly alerts within one business day of a release; flag unexpected trends in the next weekly sync.
+- **Developer → QA**: Provide a test summary (coverage, known edge cases) alongside each PR; flag any untested paths that require manual QA attention.
+- **QA → Release Manager**: Confirm QA sign-off in the [Release Readiness Checklist](octoacme-release-readiness-checklist.md) before the deployment window opens.
+- **Customer Support Lead → Product Manager**: Escalate recurring customer issues with a concise summary (frequency, severity, user impact) at least once per sprint.
+
 ## Blocker Escalation
 - Level 1: Team-level triage in daily standup
 - Level 2: PM escalates to Product Lead and dependent teams

@@ -14,6 +14,16 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+- Full cross-functional sign-off obtained via the [Release Readiness Checklist](octoacme-release-readiness-checklist.md) (Engineering, QA, Security, Product, Support, SRE)
+
+## Release Manager Responsibilities
+The Release Manager owns the release process end-to-end:
+- Coordinates the release schedule and communicates code-freeze windows
+- Drives the pre-release readiness review using the [Release Readiness Checklist](octoacme-release-readiness-checklist.md)
+- Makes the final go/no-go call after all sign-offs are obtained
+- Announces the release to stakeholders and the Customer Support Lead
+- Monitors post-deploy signals and triggers incident response or rollback if needed
+- See [Roles and Personas](octoacme-roles-and-personas.md#release-manager) for a full description
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
@@ -22,6 +32,8 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
 - [ ] Announce release to stakeholders and support
+
+> For full cross-functional sign-off requirements, use the [Release Readiness Checklist](octoacme-release-readiness-checklist.md) before opening the deployment window.
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
