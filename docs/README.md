@@ -24,5 +24,7 @@ Communication and quality assurance are treated as continuous practices rather t
 | [Release & Deployment Guide](octoacme-release-and-deployment.md) | Release checklists, staged deploys, rollback plans, and post-deploy verification |
 | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Retrospective formats, action-item tracking, and process improvement loops |
 | [Roles and Personas](octoacme-roles-and-personas.md) | Detailed descriptions of every role involved in OctoAcme projects |
+| [Ownership Matrix Template](octoacme-ownership-matrix-template.md) | RACI-style ownership matrix template for assigning roles across project activities |
+| [Release Readiness Checklist](octoacme-release-readiness-checklist.md) | Cross-functional sign-off checklist (Engineering, QA, Security, Product, Support, SRE) for go/no-go decisions |
 
 Each linked document provides detailed descriptions, templates, and checklists for the OctoAcme way of managing projects.

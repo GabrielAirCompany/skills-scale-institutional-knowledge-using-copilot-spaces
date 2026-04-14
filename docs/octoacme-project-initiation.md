@@ -8,7 +8,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 
 ## Goals
 - Confirm business need and measurable outcome
-- Identify stakeholders & champions
+- Identify stakeholders & champions (including cross-functional roles)
 - Define success criteria and initial timeline
 - Decide go/no-go for planning
 
@@ -27,7 +27,17 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles (include cross-functional roles as applicable — see [Roles and Personas](octoacme-roles-and-personas.md)):
+  - Project Manager:
+  - Product Manager:
+  - Engineering Manager / Tech Lead:
+  - Developer(s):
+  - UX Designer (if UI/UX scope):
+  - Data Analyst (if metrics/data scope):
+  - Security / Compliance Partner (if security/compliance scope):
+  - SRE / Platform Engineer (if infra/reliability scope):
+  - Release Manager:
+  - Customer Support Lead (if customer-impacting):
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
